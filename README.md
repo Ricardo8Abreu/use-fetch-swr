@@ -22,7 +22,7 @@ yarn add use-fetch-swr
 ## Basic Usage
 
 ```typescript
-import { useFetchSWR } from 'use-fetch-swr';
+import useFetchSWR from 'use-fetch-swr'
 
 function MyComponent() {
   const { data, error, isLoading, message, isValidating, mutation } = useFetchSWR(
