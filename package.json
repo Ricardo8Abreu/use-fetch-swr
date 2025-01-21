@@ -1,0 +1,37 @@
+{
+  "name": "use-fetch-swr",
+  "version": "0.0.1",
+  "author": "Ricardo8Abreu",
+  "license": "MIT",
+  "description": "A wrapper for SWR with extra features like token management, query handling, and message status control",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "swr",
+    "fetch",
+    "typescript",
+    "hooks"
+  ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TuNombre/use-fetch-swr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TuNombre/use-fetch-swr/issues"
+  },
+  "dependencies": {
+    "swr": "latest",
+    "add-queries-to-url": "^0.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^4.0.0"
+  }
+}
