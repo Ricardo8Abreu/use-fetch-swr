@@ -1,6 +1,6 @@
 {
   "name": "use-fetch-swr",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Ricardo8Abreu",
   "license": "MIT",
   "description": "A wrapper for SWR with extra features like token management, query handling, and message status control",
@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TuNombre/use-fetch-swr.git"
+    "url": "https://github.com/Ricardo8Abreu/use-fetch-swr.git"
   },
   "bugs": {
-    "url": "https://github.com/TuNombre/use-fetch-swr/issues"
+    "url": "https://github.com/Ricardo8Abreu/use-fetch-swr/issues"
   },
   "dependencies": {
     "swr": "latest",
